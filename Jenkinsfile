@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: ' https://github.com/Abduelalah-Alsuhaibi/pipe.git'
+                git branch: 'main', url: ' https://github.com/Abduelalah-Alsuhaibi/pipe.git'
             }
         }
         stage('Copy Files to /var/www/html') {
